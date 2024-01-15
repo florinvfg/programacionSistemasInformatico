@@ -12,5 +12,11 @@ public class Tareea2 {
         System.out.println("Indica el descuento ");
         double precioFinal =precio-(precio*(sc.nextDouble()/100));//operacion matematica
         System.out.println( precioFinal);
+
+        /*
+        estas lineas son igual que la linea 11 de forma mas detallada
+        * Double descuento =sn.nextDouble();
+        * Double montoDescuento =precio-descuento/100;
+        * Double precioTotal=precio-montoDescuento;*/
     }
 }
