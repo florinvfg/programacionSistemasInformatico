@@ -8,9 +8,9 @@ Existe 84 niñas y 78 niños,el 10% de los niños del colegio 162niños,
 Recordemos las regla de tres */
 public class Tareea3 {
     public static void main(String[] args) {
-        Scanner sc =new Scanner(System.in);
-        System.out.println("Indica el numero de niñas ");
-        short ninas = sc.nextShort();
+        Scanner sc =new Scanner(System.in);//declaramos Scanner
+        System.out.println("Indica el numero de niñas ");//pedimos idicacion de usuario
+        short ninas = sc.nextShort();//declaramos las indicaciones
         System.out.println("Indica el numero de niños ");
         short ninos = sc.nextShort();
         double totalMatriculados=ninas+ninos;
