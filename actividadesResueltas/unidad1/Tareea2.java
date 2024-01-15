@@ -10,7 +10,7 @@ public class Tareea2 {
         System.out.println("Indica el precio del producto ");
         precio = sc.nextDouble();
         System.out.println("Indica el descuento ");
-        double precioFinal =precio-(precio*(sc.nextDouble()/100));
+        double precioFinal =precio-(precio*(sc.nextDouble()/100));//operacion matematica
         System.out.println( precioFinal);
     }
 }
