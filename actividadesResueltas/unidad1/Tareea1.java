@@ -14,7 +14,14 @@ public class Tareea1 {
         b = sc.nextInt();
         c=a+b;
         System.out.println("El resultado de la suma de los dos numeros es igual a " + c);
-
+  /* codico optimizado
+  * int cc; solo declaro la variable "c"
+  *System.out.println("Ingresa un numero entero ");
+        cc = sc.nextInt();
+        System.out.println("Ingresa otro numero entero ");
+         cc = sc.nextInt();
+        cc=cc+nextInt();
+        System.out.println("El resultado de la suma de los dos numeros es igual a " + cc); */
     }
 
 }
