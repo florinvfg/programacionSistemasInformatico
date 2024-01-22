@@ -16,9 +16,9 @@ public class ActividadResuelta2_4 {
         System.out.println("Introdusca un numero real positivo/negativo: ");
         double numero = sc.nextDouble();
         if (-1 < numero && numero < 1 && numero != 0 ){
-            System.out.println("Es un CASI-CERO ");
+            System.out.println("Es un ©©©©© CASI-CERO ");
         }else{
-            System.out.println("No es un CASI-CERO ");
+            System.out.println("No es un CASI-CERO ©©©©© ");
         }
     }
 }
