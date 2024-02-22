@@ -87,9 +87,8 @@ public class Examen2 {
                     totalEntradas += totalPelicula;
                 }
 
-                System.out.println("\n¿Qué desea hacer a continuación?");
-                System.out.println("\t1. Seleccionar otra película");
-                System.out.println("\t2. Facturar y salir");
+
+                System.out.println("\t7. Facturar y salir");
                 System.out.println("\n\t. ✯✯✯ Indica una opción ✯✯✯");
                 opcionMenu = sc.nextByte();
             }
