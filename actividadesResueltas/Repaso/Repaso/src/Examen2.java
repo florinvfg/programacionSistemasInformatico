@@ -38,23 +38,25 @@ public class Examen2 {
             System.out.println("\t7. Facturar y Salir");
             System.out.println("\n\t. ✯✯✯ Indica una opción ✯✯✯");
             opcionMenu = sc.nextByte();
-
+           //Si la opción elegida es válida (entre 1 y 6), se pregunta al usuario si es miércoles y se actualiza la variable miercoles en consecuencia.
             if (opcionMenu >= 1 && opcionMenu <= 6) {
                 System.out.println("¿Es miércoles?");
                 System.out.println("\t1. Sí \n\t2. No");
                 byte respuestaMiercoles = sc.nextByte();
                 miercoles = (respuestaMiercoles == 1);
             }
-
+            //Se solicita al usuario que ingrese la cantidad de personas que asisten y se almacena en la variable cantidadPersonas.
             System.out.println("¿Cuántas personas asisten?");
             cantidadPersonas = sc.nextInt();
-
+            //Se solicita al usuario que ingrese la cantidad de personas con carnet joven o de señor y se almacena en la variable cantidadJovenesSeniors
             System.out.println("¿Cuántas personas tienen carnet joven o de señor?");
             cantidadJovenesSeniors = sc.nextInt();
-
+            //Se inicia un bucle while para procesar las selecciones del usuario mientras la opción elegida esté entre 1 y 6.
             while (opcionMenu >= 1 && opcionMenu <= 6) {
+                //Se inicializa la variable precioEntrada y pelicula para almacenar el precio de la entrada y el nombre de la película respectivamente.
                 double precioEntrada = 0;
                 String pelicula = "";
+                //Se utiliza un switch-case para determinar el precio de la entrada según la película seleccionada y si es miércoles o no.
                 switch (opcionMenu) {
                     case 1:
                     case 3:
