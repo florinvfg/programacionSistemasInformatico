@@ -1,20 +1,36 @@
 
-/*  pelicula  mayores->6 euros , menores->4,5 euros
-* miercoles->4,50 euros
-* cartelera-> pelicula-> mayores 18 , menores, todo publico,
-*  carnet joven/senor->4,50 euros
-*
-* peliculas
-* ferrari->todo publico
-* pobres criaturas-> mayores 18
-* priscila-> todo publico
-* la piscina-> mayores 18
-* peppa->todo publico
-* casadores de demonios->mayores 18
-*  */
+/* Título: Calculadora de precios de entradas de cine
+
+Descripción:
+En un cine local, se desea desarrollar un programa que
+calcule el precio de las entradas para distintas películas,
+teniendo en cuenta diferentes factores como la edad del espectador,
+ el día de la semana y la existencia de descuentos por carnet
+ joven o de señor.
+
+Instrucciones:
+
+El precio de las entradas varía según la película y la edad del espectador:
+Para las películas "Ferrari", "Priscila" y "Peppa", el precio es de 6 euros
+ para adultos y 4,5 euros para menores de edad.
+Para las películas "Pobres Criaturas" y "La Piscina", el precio es de 6
+ euros para mayores de 18 años y 4,5 euros para menores de edad.
+Para la película "Cazadores de Demonios", el precio es de 6 euros para mayores
+ de 18 años.
+Los miércoles, todas las entradas tienen un precio único de 4,50 euros,
+ independientemente de la película o la edad del espectador.
+Además, se ofrece un descuento de 1,50 euros para personas con carnet
+joven o de señor, aplicable a todas las películas excepto
+"Cazadores de Demonios".
+El programa debe permitir al usuario seleccionar una película, indicar
+su edad y si posee carnet joven o de señor, y calcular el precio total a pagar.  */
 
 import java.util.Scanner;
+/*Consignas adicionales:
 
+El programa debe validar las entradas del usuario y manejar casos donde se introduzcan opciones inválidas.
+Se recomienda utilizar estructuras de control como if-else y switch-case para implementar la lógica de cálculo de precios.
+ */
 public class Examen2 {
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
