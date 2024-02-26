@@ -46,6 +46,8 @@ public class ActividadResuelta4_5 {
         }
     }
 
+   //public static boolean esVocal(char c) {: Esta línea declara un método llamado esVocal que toma un parámetro de tipo
+   // char y devuelve un valor booleano (true si el carácter es una vocal, false si no lo es).
     public static boolean esVocal(char c) {
         return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' ||
                 c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U';
