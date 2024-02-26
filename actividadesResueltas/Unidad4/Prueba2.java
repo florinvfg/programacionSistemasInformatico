@@ -13,6 +13,6 @@ public class Prueba2 {
         Scanner sc=new Scanner(System.in);
         System.out.println("Indica el nombre");
         nombre=sc.nextLine();
-        return nombre.toUpperCase();
+        return nombre.toUpperCase();//Cambia todo en mayusculas
     }
 }
