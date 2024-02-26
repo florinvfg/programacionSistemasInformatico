@@ -1,11 +1,13 @@
 /*Diseñar una funcion con el siguente prototipo:
 * boolean esPrimo (int n)
 * que devuelvera true si n es primo y false en caso contrario*/
+//[̲̅Y][̲̅o][̲̅ ][̲̅V][̲̅F][̲̅G]
+
 import java.util.*;
 public class ActividadResuelta4_6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Ingrese un número:");
+        System.out.println("Ingrese un número: ⟹ ");
         int numero = sc.nextInt();
         sc.close();
 //Estas líneas verifican si el número ingresado por el usuario es primo utilizando la función esPrimo. Si la función devuelve
@@ -13,12 +15,12 @@ public class ActividadResuelta4_6 {
 // (numero % 2 == 0). Si es par, imprime un mensaje indicando que el número no es primo pero es par. Si no es par, imprime
 // un mensaje indicando que el número no es primo ni par.
         if (esPrimo(numero)) {
-            System.out.println(numero + " es un número primo.");
+            System.out.println(numero + " ➦ es un número primo.");
         } else {
             if (numero % 2 == 0) {
-                System.out.println(numero + " no es un número primo, pero es par.");
+                System.out.println(numero + " ➦ no es un número primo, pero es par.");
             } else {
-                System.out.println(numero + " no es un número primo, ni par.");
+                System.out.println(numero + " ➦ no es un número primo, ni par.");
             }
         }
     }
