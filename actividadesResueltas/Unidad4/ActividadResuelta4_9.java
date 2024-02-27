@@ -7,7 +7,7 @@ import java.util.*;
 public class ActividadResuelta4_9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Ingrese el primer número:");
+        System.out.println("Ingresa un número:");
         int a = sc.nextInt();
         System.out.println("Ingrese el segundo número:");
         int b = sc.nextInt();
