@@ -6,8 +6,17 @@ En este caso vamos reutilizar el codico existente* */
 import java.util.*;
 public class ActividadResuelta4_9 {
     public static void main(String[] args) {
-        int max = maximo(2, 9, 7);
-        System.out.println("El mayor es ➦ " + max);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Ingrese el primer número:");
+        int a = sc.nextInt();
+        System.out.println("Ingrese el segundo número:");
+        int b = sc.nextInt();
+        System.out.println("Ingrese el tercer número:");
+        int c = sc.nextInt();
+
+        int maximo=maximo(a, b, c);
+        System.out.println("El numero mayor es ➦ " + maximo);
+        
     }
 
     // Método para encontrar el máximo de tres números
@@ -24,6 +33,7 @@ public class ActividadResuelta4_9 {
         } else {
             return b;
         }
+
 
 //[̲̅Y][̲̅o][̲̅ ][̲̅V][̲̅F][̲̅G]
 
