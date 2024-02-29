@@ -64,7 +64,7 @@ public class CalculadoraIndiceMasaCorporal {
     public static void mostrar(String salida){
         System.out.println("\t\"Interpretación del IMC"+salida);
     }
-
+/**[̲̅Y][̲̅o][̲̅ ][̲̅V][̲̅F][̲̅G]*/
 }
 
 
