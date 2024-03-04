@@ -5,7 +5,7 @@ public class ActividadPropuesta5_3 {
     public static void main(String[] args) {
         //solicitar cuantos numeros a insertar
         Scanner sc = new Scanner(System.in);
-        mostrar("Indica el numero de elementos a insertar -> ");
+        mostrar("Indica el numero de elementos a insertar ➫ ");
 int longitud=sc.nextInt();
 int numeros[]=new int[longitud];
 int contadorCeros=0;
@@ -15,7 +15,7 @@ double mediaTotal=0;
 double mediaNegativos=0;
 double mediaPositivos=0;
 for (int i=0; i<longitud; i++){
-    mostrar("Indica el elemento num " + i+1);
+    mostrar("Indica el elemento num ➫ " + (i+1));
     numeros[i]= sc.nextInt();
     if (numeros[i]<0){
         mediaNegativos+=numeros[i];
@@ -29,8 +29,8 @@ for (int i=0; i<longitud; i++){
     }
 }
 
-mostrar("Negativos " + mediaNegativos);
-mostrar("Positivos " + mediaPositivos);
+mostrar("Negativos ➫ " + mediaNegativos);
+mostrar("Positivos ➫ " + mediaPositivos);
 mostrar("");
 
     }
