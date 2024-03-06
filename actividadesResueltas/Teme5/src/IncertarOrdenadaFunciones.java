@@ -122,7 +122,7 @@ class Producto {
             mostrar("1. Insertar");
             mostrar("2. Mostrar Cesta");
             mostrar("3. Eliminar Producto");
-            mostrar("4. Imprimir y salir");
+            mostrar("4. Salir");
             mostrarSinLn("Indica su opcion-> ");
             int opcion = sn.nextInt();
 
@@ -140,6 +140,9 @@ class Producto {
                     menu();
                 }
                 case 4 ->{
+                    System.out.println("Saliendo del programa...");
+                    boolean salir = true;
+                    break;
 
                 }
             }
