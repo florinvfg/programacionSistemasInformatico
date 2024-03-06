@@ -13,7 +13,7 @@ public class ActividadResuelta5_9 {
 
         Scanner sc = new Scanner(System.in);
 
-        List<Integer> puntuaciones = new ArrayList<>();//Se crea una lista llamada puntuaciones que almacenará las puntuaciones de los participantes. Se especifica que esta lista contendrá objetos de tipo Integer.
+        /*List<Integer> puntuaciones = new ArrayList<>();//Se crea una lista llamada puntuaciones que almacenará las puntuaciones de los participantes. Se especifica que esta lista contendrá objetos de tipo Integer.
         System.out.println("Introduce las puntuaciones de los 5 programadores:");
         for (int i = 0; i < 5; i++) {// Se inicia un bucle for que se ejecutará 5 veces, una vez por cada programador.
             int puntuacion = sc.nextInt();//Se lee la próxima puntuación ingresada por el usuario utilizando el objeto Scanner y se almacena en la variable puntuacion.
@@ -37,8 +37,40 @@ public class ActividadResuelta5_9 {
             System.out.print(punt + " ");
         }
 
-        sc.close();
+        sc.close();/*
 
+         */
+int[] puntuaciones = new int[5]; // Se declara un array para almacenar las puntuaciones de los programadores
+        System.out.println("Introduce las puntuaciones de los 5 programadores:");
+        for (int i = 0; i < 5; i++) { // Se inicia un bucle for que se ejecutará 5 veces, una vez por cada programador.
+            puntuaciones[i] = sc.nextInt(); // Se lee la próxima puntuación ingresada por el usuario y se almacena en el array.
+        }
+
+        int capacidad = 5; // Capacidad inicial del array
+        int contador = 0; // Contador de elementos en el array
+        int puntuacion = 0; // Variable para almacenar la puntuación ingresada por el usuario
+
+        while (puntuacion != -1) { // Se inicia un bucle while que continuará ejecutándose mientras la variable puntuacion no sea igual a -1.
+            System.out.println("Introduce la puntuación del próximo programador de exhibición (o -1 para finalizar):");
+            puntuacion = sc.nextInt(); // Se lee la próxima puntuación ingresada por el usuario.
+
+            if (puntuacion != -1) { // Se verifica si la puntuación ingresada es diferente de -1.
+                if (contador == capacidad) { // Si el array está lleno, se duplica su tamaño
+                    capacidad *= 2;
+                    puntuaciones = Arrays.copyOf(puntuaciones, capacidad); // Se copia el array a uno nuevo con el doble de capacidad
+                }
+                puntuaciones[contador++] = puntuacion; // Se añade la nueva puntuación al array y se incrementa el contador
+            }
+        }
+
+        Arrays.sort(puntuaciones, 0, contador); // Se ordenan las puntuaciones en orden ascendente hasta el contador (solo los elementos ingresados)
+
+        System.out.println("Puntuaciones ordenadas de todos los participantes:");
+        for (int i = 0; i < contador; i++) { // Se itera sobre los elementos del array hasta el contador
+            System.out.print(puntuaciones[i] + " "); // Se imprime cada puntuación
+        }
+
+        sc.close(); // Se cierra el scanner
 
     }
 }
