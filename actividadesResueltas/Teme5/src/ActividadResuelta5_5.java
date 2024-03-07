@@ -3,6 +3,7 @@
 * rango desde 2 hasta fin(inclusive)*/
 
 import java.util.*;
+//[̲̅Y][̲̅o][̲̅ ][̲̅V][̲̅F][̲̅G]
 public class ActividadResuelta5_5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

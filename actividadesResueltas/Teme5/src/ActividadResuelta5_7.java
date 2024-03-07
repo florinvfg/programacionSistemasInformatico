@@ -2,6 +2,7 @@
 * tabla de la longitud apropiada,con los elementos de t,donde se han eliminado los
 * datos repetidos*/
 import java.util.*;
+//[̲̅Y][̲̅o][̲̅ ][̲̅V][̲̅F][̲̅G]
 public class ActividadResuelta5_7 {
     public static void main(String[] args) {
         int[] t = {1, 2, 3, 4, 2, 5, 6, 1, 3, 7}; // Tabla con elementos repetidos

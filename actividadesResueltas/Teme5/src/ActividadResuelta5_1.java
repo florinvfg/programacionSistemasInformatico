@@ -1,6 +1,7 @@
 /*creea una tabla de longitud 10 que se inicializara con numeros aleatorios entre 1 y 100
 * mostrar la suma de todos los numeros que se guarden en la tabla*/
 import java.util.*;
+//[̲̅Y][̲̅o][̲̅ ][̲̅V][̲̅F][̲̅G]
 public class ActividadResuelta5_1 {
     public static void main(String[] args) {
         //crear el array de numeros

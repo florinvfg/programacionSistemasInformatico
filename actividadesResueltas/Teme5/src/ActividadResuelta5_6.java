@@ -1,7 +1,7 @@
 /*Definir una funcion que tome como parametros dos tablas,la primera con los 6 numeros
 * de una apuesta de la primitiva,y la segunda (ordenada)con los 6 numeros de la combinacion ganadora.
 * La funcion devuelvera el numero de aciertos*/
-
+//[̲̅Y][̲̅o][̲̅ ][̲̅V][̲̅F][̲̅G]
 
 import java.util.*;
 public class ActividadResuelta5_6 {

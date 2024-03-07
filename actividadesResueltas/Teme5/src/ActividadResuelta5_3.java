@@ -3,6 +3,7 @@
 * en orden inverso al introducido*/
 
 import java.util.*;
+//[̲̅Y][̲̅o][̲̅ ][̲̅V][̲̅F][̲̅G]
 
 public class ActividadResuelta5_3 {
     public static void main(String[] args) {
