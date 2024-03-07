@@ -4,6 +4,7 @@
 
 import java.util.*;
 
+//[̲̅Y][̲̅o][̲̅ ][̲̅V][̲̅F][̲̅G]
 public class ActividadResuelta5_8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

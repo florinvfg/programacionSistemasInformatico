@@ -1,5 +1,6 @@
 import java.util.Arrays;
 
+//[̲̅Y][̲̅o][̲̅ ][̲̅V][̲̅F][̲̅G]
 public class BusquedaOrdenada {
     public static void main(String[] args) {
     int numeros[]={13,15,18,12,11,16,19,17};

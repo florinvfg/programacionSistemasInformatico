@@ -3,6 +3,7 @@
 * de la tabla t donde se han eliminado todos los elementos que son mayores que valor.*/
 
 import java.util.*;
+//[̲̅Y][̲̅o][̲̅ ][̲̅V][̲̅F][̲̅G]
 public class ActividadResuelta5_10 {
     public static void main(String[] args) {
            /*static int[] sinMayores ( int t[], int valor){

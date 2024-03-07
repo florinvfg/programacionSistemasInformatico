@@ -7,6 +7,7 @@
 * finalmente,los puntos ordenados de todos los participantes. */
 
 import java.util.*;
+//[̲̅Y][̲̅o][̲̅ ][̲̅V][̲̅F][̲̅G]
 
 public class ActividadResuelta5_9 {
     public static void main(String[] args) {

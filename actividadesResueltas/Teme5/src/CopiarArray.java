@@ -3,6 +3,7 @@
  un subconjunto del primer array y lo muestra."*/
 import java.util.*;
 import java.util.Arrays;
+//[̲̅Y][̲̅o][̲̅ ][̲̅V][̲̅F][̲̅G]
 public class CopiarArray {
     public static void main(String[] args) {
         int arrayUno[] = new int[5];
