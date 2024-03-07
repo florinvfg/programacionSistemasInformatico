@@ -4,6 +4,7 @@ Declara diferentes variables de tabla que referenciaran la
  tabla creada.comprueba, imprimiendo por pantalla, que todas la
  variables contienen la misma referencia*/
 import java.util.*;
+//[̲̅Y][̲̅o][̲̅ ][̲̅V][̲̅F][̲̅G]
 public class ActividadPropuesta5_2 {
     public static void main(String[] args) {
 

@@ -6,6 +6,7 @@
 * numeros se encuentre siempre ordenada.
 * Escribe una aplicacion que solicite al usuario sus numeros favoritos y calcula su numero de la suerte*/
 import java.util.*;
+//[̲̅Y][̲̅o][̲̅ ][̲̅V][̲̅F][̲̅G]
 public class ActividadPropuesta5_7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

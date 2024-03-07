@@ -1,5 +1,6 @@
 /*Crea una funcion que realice el borrado de un elemento de una tabla ordenada*/
 import java.util.*;
+//[̲̅Y][̲̅o][̲̅ ][̲̅V][̲̅F][̲̅G]
 public class ActividadPropuesta5_6 {
     public static void main(String[] args) {
         int[] tabla = {3, 5, 8, 10, 12}; // Tabla ordenada de ejemplo

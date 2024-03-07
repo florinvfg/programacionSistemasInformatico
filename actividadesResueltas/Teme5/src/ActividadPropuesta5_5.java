@@ -1,6 +1,7 @@
 
 /*Escribe en una funcion el comportamiento de la insercion ordenada*/
 import java.util.*;
+//[̲̅Y][̲̅o][̲̅ ][̲̅V][̲̅F][̲̅G]
 public class ActividadPropuesta5_5 {
     public static void main(String[] args) {
 

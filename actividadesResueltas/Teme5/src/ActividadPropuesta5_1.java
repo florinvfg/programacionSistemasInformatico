@@ -4,6 +4,7 @@ referencias en las que se encuentra cada una de las tablas anteriores*/
 
 import java.util.Arrays;
 
+//[̲̅Y][̲̅o][̲̅ ][̲̅V][̲̅F][̲̅G]
 public class ActividadPropuesta5_1 {
     public static void main(String[] args) {
        int[] numero = new int[5];// Se crea un array llamado numero de tipo entero con capacidad para 5 elementos.

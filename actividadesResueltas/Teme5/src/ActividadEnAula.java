@@ -1,6 +1,8 @@
 /*Array en programacion*/
 
 import java.util.*;
+//[̲̅Y][̲̅o][̲̅ ][̲̅V][̲̅F][̲̅G]
+
 public class ActividadEnAula {
 /*
 El código permite ingresar y almacenar edades en un array, solicitando primero la

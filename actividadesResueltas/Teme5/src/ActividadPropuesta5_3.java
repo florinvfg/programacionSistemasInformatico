@@ -1,6 +1,7 @@
 /*Introduce por teclado un numero n; a continuacion solicita al usuario que teclee n numeros
 * Realiza la media de los numeros positivos, la media de los negativos y cuenta el numero de ceros introducidos*/
 import java.util.*;
+//[̲̅Y][̲̅o][̲̅ ][̲̅V][̲̅F][̲̅G]
 public class ActividadPropuesta5_3 {
     public static void main(String[] args) {
         //solicitar cuantos numeros a insertar
