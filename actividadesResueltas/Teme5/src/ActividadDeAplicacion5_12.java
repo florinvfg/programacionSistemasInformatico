@@ -1,6 +1,7 @@
 /*Escribe la función void desordenar(int t[]), que cambia de forma aleatoria los elementos
 contenidos en la tabla t. Si la tabla estuviera ordenada, dejaría de estarlo*/
 import java.util.*;
+//[̲̅Y][̲̅o][̲̅ ][̲̅V][̲̅F][̲̅G]
 public class ActividadDeAplicacion5_12 {
     public static void main(String[] args) {
         int[] tabla = {1, 2, 3, 4, 5};

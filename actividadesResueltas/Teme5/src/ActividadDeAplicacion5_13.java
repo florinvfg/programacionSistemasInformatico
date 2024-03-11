@@ -2,12 +2,13 @@
  la tabla que se pasa como parámetro y, en su lugar, cree y devuelva una copia
   de la tabla donde se han desordenado los valores de los elemento*/
 import java.util.*;
+//[̲̅Y][̲̅o][̲̅ ][̲̅V][̲̅F][̲̅G]
 public class ActividadDeAplicacion5_13 {
     public static void main(String[] args) {
         int[] tabla = {1, 2, 3, 4, 5};
-        System.out.println("Tabla original: " + Arrays.toString(tabla));
+        System.out.println("Tabla original: ➫ " + Arrays.toString(tabla));
         int[] tablaDesordenada = desordenar(tabla);
-        System.out.println("Tabla desordenada: " + Arrays.toString(tablaDesordenada));
+        System.out.println("Tabla desordenada: ➫ " + Arrays.toString(tablaDesordenada));
     }
 
     public static int[] desordenar(int[] t) {
