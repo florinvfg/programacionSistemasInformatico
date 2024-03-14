@@ -75,7 +75,7 @@ public class MaquinaExpendedoraDeIrina {
                     mostrarSinLn("Indique la posicion de la golosina a comprar");
                     pos=sn.nextInt();
                     //tenemos que validar que la posicion sea >=0 y <33
-                    if (pos>=0 && pos<=33){
+                    if (pos>=0 && pos<=33 || pos>10 && pos<=13 || pos>=20&pos<=23 ||pos>=30&&pos<=33){
                         //calculamos el valor de la fila
                         fila=(pos%100)/10;
                         columna=pos%10;
@@ -84,6 +84,10 @@ public class MaquinaExpendedoraDeIrina {
           if (controlStock(stock,fila,columna)){
            mostrar("Ingresa el dinero" +precios[fila][columna]+ "euros");
            double aux=sn.nextDouble();
+           if ((aux>precios[fila][columna])){
+               mostrar("Tu cambio es " + (aux-precios[fila][columna]));
+           }
+
            mostrar("Disfruta de tu....." + golosinas[fila][columna] + " \uD83E\uDD21");
            stock[fila][columna]--;
            totalVentaEuro+=precios[fila][columna];
