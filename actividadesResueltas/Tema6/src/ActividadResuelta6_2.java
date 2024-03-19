@@ -24,12 +24,14 @@ public class ActividadResuelta6_2 {
       /**
        * calculamos
        * la longitud de cada palabra
+       * utilisamos el metodo lenght()
        * */
       int longFrase1=frase1.length();
       int longFrase2=frase2.length();
       /**
-       * comparamos
-       * los tamaños
+       * comparamos -> los tamaños
+       * Comparamos las longitudes de las frases
+       * y mostramos mensajes según el resultado
        * */
      if (longFrase1 == longFrase2){
          mostrar("Son identicas de longitud");
