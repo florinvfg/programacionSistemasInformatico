@@ -35,5 +35,6 @@ public class Main {
 x.cumplirAño();
 p.crecer(-0.05);
         System.out.println(p.nombre + "ahora mides " +p.estatura);
+        x.saludar();
     }
 }
