@@ -1,0 +1,32 @@
+
+
+
+       Programación Orientada a Objetos (POO) en Java:
+
+
+La Programación Orientada a Objetos (POO) es un paradigma de programación que se basa en la creación y manipulación de objetos. 
+Los programas escritos utilizando POO están compuestos por clases, que son plantillas para la creación de objetos. Cada clase 
+define atributos (variables) y métodos (funciones) que describen el comportamiento y las características de los objetos que se 
+pueden crear a partir de ella.
+
+Los atributos representan el estado interno de un objeto y los métodos representan su comportamiento. Los atributos pueden ser 
+de diferentes tipos de datos, como cadenas, enteros o incluso otros objetos. Los métodos definen las operaciones que un objeto 
+puede realizar y pueden aceptar parámetros y devolver valores.
+
+En la POO, se pueden controlar los niveles de visibilidad de los atributos y métodos, permitiendo que algunos sean accesibles solo 
+dentro de la misma clase o dentro de clases relacionadas. Los modificadores de acceso, como public, private y protected, permiten 
+especificar quién puede acceder a los miembros de una clase.
+
+Los objetos se crean utilizando constructores, que son métodos especiales utilizados para inicializar objetos. Los constructores 
+pueden tener diferentes visibilidades y pueden aceptar parámetros para inicializar los atributos de un objeto durante su creación.
+
+Los atributos y métodos estáticos pertenecen a la clase en su conjunto en lugar de a instancias individuales de la clase. Esto significa 
+que se pueden llamar directamente desde la clase sin necesidad de crear un objeto y pueden ser útiles para definir funcionalidades que 
+no dependen del estado de un objeto específico.
+
+Los paquetes son utilizados para organizar y estructurar las clases en un proyecto. Proporcionan un mecanismo para evitar conflictos 
+de nombres y mejorar la modularidad y la reutilización del código.
+
+En resumen, la POO proporciona un enfoque estructurado y modular para escribir programas, lo que facilita la solución de problemas y 
+la gestión de la complejidad del software. Los conceptos de clases, objetos, atributos, métodos, constructores, modificadores de acceso, 
+atributos y métodos estáticos, y paquetes son fundamentales para comprender y aplicar la POO en Java.
