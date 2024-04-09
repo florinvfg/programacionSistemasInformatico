@@ -3,7 +3,7 @@ package Herencia.Clases;
 import java.time.LocalDate;
 
  public class Profesor extends Persona{
-
+     private static int idCont=1;
      private int idProfesor;
      private String materia;
      private boolean tutor;
@@ -15,6 +15,12 @@ import java.time.LocalDate;
 
      public Profesor() {
          super();
+         this.idProfesor=asignarId();
+
+     }
+
+     private int asignarId() {
+         return idCont++;
      }
 
      public int getIdProfesor() {
@@ -22,7 +28,7 @@ import java.time.LocalDate;
      }
 
      public void setIdProfesor(int idProfesor) {
-         this.idProfesor = idProfesor;
+         this.idProfesor = asignarId();
      }
 
      public Profesor(String nombre, String telefono, String direccion, String sexo, LocalDate fechaNacimiento, String nacionalidad, int idProfesor, String materia, boolean tutor, double sueldo, LocalDate fechaAlta, boolean personalFijo, boolean equipoDirectivo, String jornada) {

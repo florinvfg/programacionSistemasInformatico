@@ -24,6 +24,7 @@ package Herencia.Controller;
 //Una vez implementadas las clases, se deberá crear instancias de profesores y alumnos para demostrar el funcionamiento
 // del sistema de información.
 import Herencia.Clases.Alumno;
+import Herencia.Clases.Profesor;
 
 import java.time.LocalDate;
 
@@ -53,6 +54,12 @@ public class Main {
         a3.setNombre("Fernando Arias");
         System.out.println(a2.toString());
         System.out.println(a3.toString());
+        Profesor p1=new Profesor();
+        a1.setNombre("Lucia Perez");
+        Profesor p2=new Profesor();
+        p2.setNombre("Maria Alvaro");
+        System.out.println(p1.toString());
+        System.out.println(p2.toString());
 
 
     }

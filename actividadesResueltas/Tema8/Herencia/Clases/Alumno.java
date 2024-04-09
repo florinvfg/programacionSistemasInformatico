@@ -43,7 +43,7 @@ public class Alumno extends Persona{
         return idAlumno;
     }
 public int asignarId(){
-        return idCont;
+        return idCont++;
 }
     public void setIdAlumno(int idAlumno) {
 
