@@ -1,5 +1,28 @@
 package Herencia.Controller;
 
+
+//Modelado de una Escuela:
+//
+//Dentro del contexto de una escuela, se solicita desarrollar un sistema de información que
+// permita gestionar la información de las personas que forman parte de ella. Para ello,
+// se ha definido una jerarquía de clases que incluye la clase principal Persona, la cual
+// es heredada por las clases Profesor y Alumno.
+//
+//El ejercicio consiste en implementar estas clases en Java, siguiendo los siguientes
+// requisitos:
+//
+//  1 La clase Persona debe contener atributos comunes a profesores y alumnos, como el nombre,
+//  teléfono, dirección y nacionalidad. Además, debe incluir la fecha de nacimiento para calcular
+//  la edad y la opción de tener comedor.
+// 2 La clase Profesor extiende la clase Persona e incorpora características adicionales propias de
+// los docentes, como el área de especialización y el nivel de experiencia.
+// 3 La clase Alumno también hereda de Persona y agrega atributos específicos relacionados con el curso,
+// el aula y los detalles del tutor, incluyendo su nombre, teléfono y dirección.
+//Se requiere implementar estas clases con sus respectivos métodos de acceso y construcción,
+// así como también sobrescribir el método toString() para mostrar la información completa de cada objeto.
+//
+//Una vez implementadas las clases, se deberá crear instancias de profesores y alumnos para demostrar el funcionamiento
+// del sistema de información.
 import Herencia.Clases.Alumno;
 
 import java.time.LocalDate;
