@@ -55,7 +55,7 @@ public class Main {
         System.out.println(a2.toString());
         System.out.println(a3.toString());
         Profesor p1=new Profesor();
-        a1.setNombre("Lucia Perez");
+        p1.setNombre("Lucia Perez");
         Profesor p2=new Profesor();
         p2.setNombre("Maria Alvaro");
         System.out.println(p1.toString());

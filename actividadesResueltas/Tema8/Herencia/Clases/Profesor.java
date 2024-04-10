@@ -31,6 +31,23 @@ import java.time.LocalDate;
          this.idProfesor = asignarId();
      }
 
+     /**
+      *
+      * @param nombre
+      * @param telefono
+      * @param direccion
+      * @param sexo
+      * @param fechaNacimiento
+      * @param nacionalidad
+      * @param idProfesor
+      * @param materia
+      * @param tutor
+      * @param sueldo
+      * @param fechaAlta
+      * @param personalFijo
+      * @param equipoDirectivo
+      * @param jornada
+      */
      public Profesor(String nombre, String telefono, String direccion, String sexo, LocalDate fechaNacimiento, String nacionalidad, int idProfesor, String materia, boolean tutor, double sueldo, LocalDate fechaAlta, boolean personalFijo, boolean equipoDirectivo, String jornada) {
          super(nombre, telefono, direccion, sexo, fechaNacimiento, nacionalidad);
          this.idProfesor = idProfesor;
@@ -98,6 +115,11 @@ import java.time.LocalDate;
      public void setJornada(String jornada) {
          this.jornada = jornada;
      }
+
+     /**
+      *
+      * @return
+      */
 
      @Override
      public String toString() {

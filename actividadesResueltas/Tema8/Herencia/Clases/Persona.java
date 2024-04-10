@@ -1,22 +1,33 @@
 package Herencia.Clases;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
 public class Persona {
 
 
-String nombre;
-String telefono;
-String direccion;
-String sexo;
-LocalDate fechaNacimiento;
-String nacionalidad;
+
+protected String nombre;
+protected String telefono;
+protected String direccion;
+protected String sexo;
+protected LocalDate fechaNacimiento;
+protected String nacionalidad;
 
     public Persona() {
 
     }
 
+    /**
+     *
+     * @param nombre
+     * @param telefono
+     * @param direccion
+     * @param sexo
+     * @param fechaNacimiento
+     * @param nacionalidad
+     */
     public Persona(String nombre, String telefono, String direccion, String sexo, LocalDate fechaNacimiento, String nacionalidad) {
         this.nombre = nombre;
         this.telefono = telefono;

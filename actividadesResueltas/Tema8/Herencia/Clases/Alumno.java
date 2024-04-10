@@ -121,7 +121,14 @@ public int asignarId(){
     public void setBeca(boolean beca) {
         this.beca = beca;
     }
+    public void setTelefono(String telefono) {
+        this.telefono = "000000000";
+    }
 
+    /**
+     *
+     * @return
+     */
     @Override
     public String toString() {
         return "Alumno{" +
