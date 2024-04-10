@@ -125,6 +125,16 @@ public int asignarId(){
         this.telefono = "000000000";
     }
 
+    @Override
+    public boolean equals(Object otroAlumno) {
+       Alumno a = (Alumno) otroAlumno;//cast de valor del objeto otroAlumno a tipo Alumno
+        boolean iguales=false;
+        if (this.emailTutor.equals(a.emailTutor)){
+            iguales=true;
+        }
+        return iguales;
+    }
+
     /**
      *
      * @return

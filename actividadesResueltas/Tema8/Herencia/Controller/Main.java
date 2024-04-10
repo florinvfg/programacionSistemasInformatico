@@ -46,10 +46,15 @@ public class Main {
         a1.setNombreTutor("Manuel Perez");
         a1.setTelefonoTutor("647138051");
         a1.setDireccionTudor("Calle tal ,numero 3");
+        a1.setEmailTutor("mp2@gmail.com");
 
         System.out.println(a1.toString());
         Alumno a2=new Alumno();
         a2.setNombre("Juan Keef");
+        a2.setEmailTutor("mp2@gmail.com");
+        if (a1.equals(a2)){
+            System.out.println("El email ya existe");
+        }
         Alumno a3=new Alumno();
         a3.setNombre("Fernando Arias");
         System.out.println(a2.toString());
