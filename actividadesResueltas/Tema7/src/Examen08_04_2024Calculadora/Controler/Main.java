@@ -15,7 +15,10 @@ import java.util.Scanner;
  *
  * Para llevar a cabo la actividad, el usuario debe seleccionar en un Menú la operación a Realizar y luego, la aplicación
  * solicitar los datos necesarios para realizar la operación. Finalmente, mostrar el resultado.
- * */
+ *
+ *
+ *     [̲̅Y][̲̅o][̲̅ ][̲̅V][̲̅F][̲̅G]
+ */
 
 
 
