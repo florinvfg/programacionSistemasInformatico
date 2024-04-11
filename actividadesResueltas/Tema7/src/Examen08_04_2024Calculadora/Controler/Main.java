@@ -11,12 +11,9 @@ import java.util.Scanner;
  * 3. Multiplicar
  * 4. Dividir
  * 5. Resto
- * 6. Exponencial
- *
+ * 6. Exponencial*
  * Para llevar a cabo la actividad, el usuario debe seleccionar en un Menú la operación a Realizar y luego, la aplicación
  * solicitar los datos necesarios para realizar la operación. Finalmente, mostrar el resultado.
- *
- *
  *     [̲̅Y][̲̅o][̲̅ ][̲̅V][̲̅F][̲̅G]
  */
 
@@ -28,6 +25,7 @@ public class Main {
         // Definición de constantes para colores de texto en la consola
         final String RESET = "\033[0m";  // Restablece el color a su estado predeterminado
         final String YELLOW = "\033[0;33m"; // Color amarillo
+        final String BLUE = "\033[0;34m"; // Color azul
 
         Scanner scanner = new Scanner(System.in);
         // Creaamos un objeto Calculadora para realizar operaciones matemáticas
@@ -39,7 +37,8 @@ public class Main {
         // Bucle principal del programa
         while (!salir) {
             // Menú de la calculadora
-            System.out.println("\n\uD83D\uDCBB La Calculadora \uD83D\uDCBB");
+            System.out.println("\n\t\uD83D\uDCBB La Calculadora \uD83D\uDCBB");
+            System.out.println(BLUE+"\nNuestra Calculadora tiene las siguentes operaciones:" +RESET);
             System.out.println("\t1. Suma");
             System.out.println("\t2. Resta");
             System.out.println("\t3. Multiplicación");
@@ -47,7 +46,7 @@ public class Main {
             System.out.println("\t5. Resto");
             System.out.println("\t6. Exponencial");
             System.out.println("\t7. Salir");
-            System.out.print("Seleccione la operación deseada \uD83E\uDD14 ➣ ");
+            System.out.print(YELLOW+"Selecciona la operación deseada \uD83E\uDD14 ➣ " +RESET);
             int opcion = scanner.nextInt();
 
             // Switch para manejar las diferentes opciones del menú
@@ -113,7 +112,8 @@ public class Main {
                     System.out.println("\nOperaciones realizadas:");
                    // System.out.println(calculadora.getOperacionesRealizadas());
                     System.out.println("Total de operaciones realizadas: " + calculadora.getContadorOperaciones());
-                    System.out.println("\n\t\uD83D\uDE09Gracias por utilizar la calculadora.\uD83D\uDE09\n¡ADIOS!");
+                    System.out.println("\n\t\uD83D\uDE09 Gracias por utilizar la calculadora \uD83D\uDE09\n");
+                    System.out.println(BLUE+"¡ ADIOS !"+RESET);
                     salir = true;
                     break;
                 default:  // // Opción por defecto en caso de selección inválida

@@ -130,10 +130,13 @@ public class Calculadora {
      * @return          resultado de la potencia.
      */
     public double exponencial(double base, double exponente) {
+
         // Calculamos la potencia de base elevado a exponente
         double resultado = Math.pow(base, exponente);
+
         // Actualizamos operacionesRealizadas con la operación de potencia realizada
         operacionesRealizadas=(base + " ^ " + exponente + " = " + Math.pow(base, exponente));
+
         // Incrementa el contador de operaciones
         incrementarContadorOperaciones();
         return Math.pow(base, exponente);
@@ -145,6 +148,7 @@ public class Calculadora {
      * @return      el valor del contador de operaciones.
      */
     public String getContadorOperaciones() {
+
         return String.valueOf(contadorOperaciones);
     }
 }
