@@ -15,6 +15,7 @@ public class Piano extends Instrumento {
                 case FA -> System.out.println("Fa");
                 case SOL -> System.out.println("Sol");
                 case SI -> System.out.println("Si");
+                case LA -> System.out.println("La");
 
             }
 
