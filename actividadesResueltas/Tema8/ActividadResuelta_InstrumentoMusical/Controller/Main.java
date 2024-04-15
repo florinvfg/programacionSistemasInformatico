@@ -1,5 +1,6 @@
 package ActividadResuelta_InstrumentoMusical.Controller;
 
+import ActividadResuelta_InstrumentoMusical.Clases.Campana;
 import ActividadResuelta_InstrumentoMusical.Clases.Nota;
 import ActividadResuelta_InstrumentoMusical.Clases.Piano;
 
@@ -12,5 +13,10 @@ public class Main {
         }
 
 miPiano.interpretar();
+        Campana miCampana=new Campana();
+        for (Nota n:cancion){
+            miCampana.agregarNota(n);
+        }
+        miCampana.interpretar();
     }
 }
