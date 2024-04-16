@@ -16,6 +16,13 @@ public class Caja {
         CM, M
     }
 
+    /**
+     *
+     * @param ancho
+     * @param alto
+     * @param fondo
+     * @param unidad
+     */
     public Caja(int ancho, int alto, int fondo, Unidad unidad) {
         this.ancho = ancho;
         this.alto = alto;
@@ -23,6 +30,10 @@ public class Caja {
         this.unidad = unidad;
     }
 
+    /**
+     *
+     * @return
+     */
     public double getVolumen() {
         double volumen = ancho * alto * fondo;
         if (unidad == Unidad.CM) {
@@ -35,6 +46,10 @@ public class Caja {
         this.etiqueta = etiqueta;
     }
 
+    /**
+     *
+     * @return
+     */
     @Override
     public String toString() {
         return "Etiqueta: " + etiqueta + ", Dimensiones: " + ancho + "x" + alto + "x" + fondo + " " + unidad;
