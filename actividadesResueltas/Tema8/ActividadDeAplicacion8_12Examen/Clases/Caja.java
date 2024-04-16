@@ -8,6 +8,10 @@ public class Caja {
     private final Unidad unidad;
     private String etiqueta;
 
+    protected double getSuperficieTotal() {
+        return alto * ancho;
+    }
+
     public enum Unidad {
         CM, M
     }
@@ -35,4 +39,7 @@ public class Caja {
     public String toString() {
         return "Etiqueta: " + etiqueta + ", Dimensiones: " + ancho + "x" + alto + "x" + fondo + " " + unidad;
     }
+
+
+
 }

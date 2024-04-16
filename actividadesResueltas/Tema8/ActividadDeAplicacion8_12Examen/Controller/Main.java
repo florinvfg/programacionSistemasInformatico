@@ -1,10 +1,13 @@
 package ActividadDeAplicacion8_12Examen.Controller;
 
 import ActividadDeAplicacion8_12Examen.Clases.Caja;
+import ActividadDeAplicacion8_12Examen.Clases.CajaCarton;
 
 import java.util.Scanner;
 
 public class Main {
+
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -26,16 +29,28 @@ public class Main {
         String etiquetaCaja2 = crearEtiqueta(scanner);
         caja2.setEtiqueta(etiquetaCaja2);
 
+
+
         // Mostrar información de las cajas
         System.out.println("\nCaja 1:");
         System.out.println("Volumen: " + caja1.getVolumen() + YELLOW+" m^3"+RESET);
         System.out.println(YELLOW+" " + caja1.toString()+RESET);
 
+
         System.out.println("\nCaja 2:");
         System.out.println("Volumen: " + caja2.getVolumen() + " m^3");
         System.out.println(YELLOW+" " + caja2.toString()+RESET);
+
+        // Calcular el área total de cartón utilizado por las dos cajas
+        double areaCartonTotal = CajaCarton.getMetrosCuadradosCartonTotal(caja1, caja2);
+        System.out.println("\nÁrea total de cartón utilizado: "+YELLOW + areaCartonTotal + " metros cuadrados"+RESET);
+
+
         System.out.println(BLUE+"\n\t ! Gracias por trabajar con nosotros !" + RESET);
         scanner.close();
+
+
+
     }
 
 
@@ -47,4 +62,5 @@ public class Main {
         String direccion = scanner.nextLine();
         return "Destinatario: " + nombre + ", Dirección: " + direccion;
     }
+    
 }
