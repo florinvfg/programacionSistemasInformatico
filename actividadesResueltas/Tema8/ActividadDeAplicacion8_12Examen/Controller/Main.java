@@ -28,15 +28,16 @@ public class Main {
 
         // Mostrar información de las cajas
         System.out.println("\nCaja 1:");
-        System.out.println("Volumen: " + caja1.getVolumen() + " m^3");
-        System.out.println("Etiqueta: " + caja1.toString());
+        System.out.println("Volumen: " + caja1.getVolumen() + YELLOW+" m^3"+RESET);
+        System.out.println(YELLOW+" " + caja1.toString()+RESET);
 
         System.out.println("\nCaja 2:");
         System.out.println("Volumen: " + caja2.getVolumen() + " m^3");
-        System.out.println("Etiqueta: " + caja2.toString());
-
+        System.out.println(YELLOW+" " + caja2.toString()+RESET);
+        System.out.println(BLUE+"\n\t ! Gracias por trabajar con nosotros !" + RESET);
         scanner.close();
     }
+
 
     // Método para crear la etiqueta solicitando nombre y dirección del destinatario
     private static String crearEtiqueta(Scanner scanner) {
