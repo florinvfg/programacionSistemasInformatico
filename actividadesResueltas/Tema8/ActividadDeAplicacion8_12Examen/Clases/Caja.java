@@ -12,10 +12,6 @@ public class Caja {
         return alto * ancho;
     }
 
-    public enum Unidad {
-        CM, M
-    }
-
     /**
      *
      * @param ancho

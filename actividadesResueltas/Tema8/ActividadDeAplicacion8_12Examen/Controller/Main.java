@@ -2,6 +2,7 @@ package ActividadDeAplicacion8_12Examen.Controller;
 
 import ActividadDeAplicacion8_12Examen.Clases.Caja;
 import ActividadDeAplicacion8_12Examen.Clases.CajaCarton;
+import ActividadDeAplicacion8_12Examen.Clases.Unidad;
 
 import java.util.Scanner;
 /**
@@ -30,13 +31,13 @@ public class Main {
 
         System.out.println(BLUE+"\n\t \uD83D\uDCE6   Bienvenido a TodoTransporte"+RESET);
         // Crear una caja de dimensiones 1m x 1m x 1m
-        Caja caja1 = new Caja(1, 1, 1, Caja.Unidad.M);
+        Caja caja1 = new Caja(1, 1, 1, Unidad.M);
         System.out.println(YELLOW+"\n\tIngrese el nombre y la dirección del destinatario para la Caja 1:"+RESET);
         String etiquetaCaja1 = crearEtiqueta(scanner);
         caja1.setEtiqueta(etiquetaCaja1);
 
         // Crear una caja de dimensiones 50cm x 50cm x 50cm
-        Caja caja2 = new Caja(50, 50, 50, Caja.Unidad.CM);
+        Caja caja2 = new Caja(50, 50, 50, Unidad.CM);
         System.out.println(YELLOW+"\n\tIngrese el nombre y la dirección del destinatario para la Caja 2:"+RESET);
         String etiquetaCaja2 = crearEtiqueta(scanner);
         caja2.setEtiqueta(etiquetaCaja2);
