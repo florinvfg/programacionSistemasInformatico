@@ -5,6 +5,14 @@ import ExplicacionesIrina_CrudSocios.Modelo.Socio;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * El ejercicio consiste en desarrollar un programa de gestión de socios utilizando un menú CRUD.
+ * Se solicita:
+ * Implementar las operaciones de Crear, Leer, Actualizar y Borrar socios.
+ * El menú permitirá :
+ * ingresar, listar, actualizar y eliminar socios de una lista, proporcionando una interfaz sencilla
+ * y eficiente para la administración de datos.
+ */
 public class Main {
     static Scanner sn=new Scanner(System.in);
     //Voy a crear socios en alta, y lo agrego a esta lista...
