@@ -3,8 +3,9 @@ package ExplicacionesIrina_CrudSocios.Modelo;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
+import java.util.Objects;
 
-public class Socio {
+public class Socio implements Cloneable{
     private int id;
     private String nombre;
     LocalDate fechaNacimiento;
@@ -13,8 +14,8 @@ public class Socio {
         this.id = id;
         this.nombre = nombre;
         //establecer la fecha de nacimiento en formato Español
-
-        this.fechaNacimiento=LocalDate.parse(fechaNacimiento); // se convierte un String en LocalDate
+        DateTimeFormatter f = DateTimeFormatter.ofPattern("dd/MM/yyyy");//se crea el Formato
+        this.fechaNacimiento=LocalDate.parse(fechaNacimiento,f); // se convierte un String en LocalDate
 
 
     }
@@ -42,21 +43,46 @@ public class Socio {
 //        return resultado;
 //    }
 
-    public int compareTo(Object otro){
+    public int compareTo(Object oj){
         int resulado;
-        Socio otroS=(Socio) otro;
-        resulado=this.nombre.compareTo(otroS.nombre);
+        Socio s=(Socio) oj;
+        resulado=Integer.compare(this.id,s.id);
         return resulado;
     }
+    public int getId(){return id;}
 
+    /**
+     *
+     * @param o
+     * @return
+     */
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Socio socio = (Socio) o;
+        return id == socio.id;
+    }
+
+    // Definición de constantes para colores de texto en la consola
+    final String RESET = "\033[0m";  // Restablece el color a su estado predeterminado
+    final String YELLOW = "\033[0;33m"; // Color amarillo
+    final String BLUE = "\033[0;34m"; // Color azul
+
+
+    /**
+     *
+     * @return
+     */
     @Override
     public String toString() {
         DateTimeFormatter f=DateTimeFormatter.ofPattern("dd-MM-yyyy");//Se crea el Formato
 
-        return "Socio->" +
+        return BLUE+"Socio->"+RESET +
                 "id=" + id +
-                ", nombre='" + nombre  +
+                BLUE+" nombre='"+RESET + nombre  +
                 ", fechaNacimiento=" + fechaNacimiento.format(f) +
-                ", edad: " +edad();
+                ", edad: "+YELLOW +edad()+RESET;
     }
 }
