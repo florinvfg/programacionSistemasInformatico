@@ -132,15 +132,8 @@ public class Main {
     public static boolean ejecutarValidacion (String texto,int opcion){
         boolean exito=false;
         switch (opcion){
-            case 1->{
-               if (texto.matches("\\b\\d{8}[A-HJ-NP-TV-Za-hj-np-tv-z]\\b"));
-               String letraDNI[]={"T", "R", "W", "A", "G", "M", "Y", "F", "P", "D", "X", "B", "N", "J", "Z", "S", "Q", "V", "H", "L", "C", "K", "E"};
-               int numeros=Integer.parseInt(texto.substring(0,8));
-               int posicion=numeros%23;
-               if (texto.substring(8,9).equalsIgnoreCase(letraDNI[posicion]));
-
-               exito=true;
-            }
+            case 1->
+                exito = Services.validarDNI(texto);
             case 2->
                     exito=texto.matches("^[a-zA-Z0-9]{3,16}");//Username lo declaramos con longitud 8 y aceptamos solos letras y numeros
             case 3-> {
