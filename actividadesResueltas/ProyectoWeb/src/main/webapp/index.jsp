@@ -8,9 +8,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="autor" content="Florin">
     <meta name="keyworks" content="Html,jsp,Java">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Mi primer JSP con HTML</title><!--se considera obligatorio poner un title a cada pagina-->
 </head>
 <body>
+<div>
+    <a href="index.jsp"><span class="material-symbols-outlined">home</span></a>
+    <a href="listasytablas.jsp"><span class="material-symbols-outlined">receipt_long</span></a>
+</div>
         <!--Encabezados / Titulos-->
 <h1>Encabezado H1</h1>
 <h2>Encabezado H2</h2>
